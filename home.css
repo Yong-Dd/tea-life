@@ -1,0 +1,120 @@
+/* Today's Tea */
+.home_today-tea{
+    padding-top: 20%;
+    text-align:right;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 5%;
+    position: relative;
+}
+.home_today-tea img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.today-tea_text{
+  position: absolute;
+  top: 50%;
+  left: -10%;
+}
+
+.today-tea_text p:first-child{
+    color: var(--green);
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.today-tea_text p:last-child{
+    font-size: 25px;
+    color: var(--brown);
+ 
+}
+
+/* best pick */
+
+/* home title with new recipe */
+.home-title{
+    margin-left: 5%;
+    color: var(--deep_green);
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.home_best-pick_title i{
+    color: var(--deep_green);
+    font-size: 1.4em;
+    margin-left: 5px;
+}
+
+
+.home_best-pick_content{
+    display: flex;
+    justify-content: space-around;
+    padding: 5% ;
+    background-color: var(--beige);
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.home_best-pick_content a img{
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.best-pick_num{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.best-pick_num button{
+    position: absolute;
+    top :-10%;
+    left: 80%;
+    font-size: 1.4em;
+    color: var(--green);
+    background:rgba(255, 255, 255, 0);
+    border: none;
+}
+.best-pick_num > button:focus{
+    color: var(--brown);
+    outline-style: none;
+}
+
+.best-pick_num span{
+    font-weight: 600;
+    padding-top: 5px;
+    color: rgb(107, 85, 64);
+    font-size: 0.8em;
+}
+
+/* new recipe */
+
+/*  home title from best pick*/
+.home-recipe{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 4%;
+
+}
+.home-recipe img{
+    width: 150px;
+    height: 100px;
+    border-radius: 20px;
+    margin-right: 3%;
+}
+.home-recipe_text{
+    color: var(--green);
+    padding-left: 3%;
+}
+.home-recipe_text span{
+    font-weight: 600;
+    font-size: 1.4em;
+}
+.home-recipe_text p{
+    margin-top: 2%;
+    font-size: 0.9em;
+}

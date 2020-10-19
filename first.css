@@ -1,0 +1,20 @@
+#first-logo img{
+    width: 15em;
+    height: 15em;
+    margin-bottom: 1.2em;
+}
+#first-box{
+    text-align: center;
+    margin: 30% 0;
+}
+#f1{
+    font-size: 1.3em;
+    color :var(--deep_green);
+    font-weight: 600;
+}
+#f2{
+    font-size: 1.1em;
+    color: var(--brown);
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}

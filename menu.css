@@ -1,0 +1,17 @@
+.menu{
+    position: relative;
+}
+.menu-hold {
+    margin: 1.5em;
+    margin-top: 1.5em;
+    position: fixed;
+    color: var(--green);
+    margin-bottom: 40px;
+}
+.menu-slide{
+    display: none;
+}
+.menu-slide_logo img{
+    width: 5em;
+    height: 5em;
+}

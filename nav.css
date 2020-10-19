@@ -1,0 +1,15 @@
+.nav{
+    width: 400px;
+    height: 46px;
+    background-color: var(--green);
+    position: fixed;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav a i{
+    color: var(--beige);
+    font-size: 1.4em;
+}

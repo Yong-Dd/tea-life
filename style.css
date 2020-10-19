@@ -1,0 +1,24 @@
+@import "variable.css";
+@import "first.css";
+@import "home.css";
+@import "menu.css";
+@import "nav.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.outline{
+    width:400px;
+    height: 670px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: auto;
+}
