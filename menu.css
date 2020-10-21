@@ -1,3 +1,4 @@
+/* menu button */
 .menu{
     position: relative;
 }
@@ -7,11 +8,57 @@
     position: fixed;
     color: var(--green);
     margin-bottom: 40px;
+    z-index: 9999;
+}
+
+
+
+/* slide menu */
+#menu-in{
+    width: 100%;
 }
 .menu-slide{
+    position: absolute;
+    left: -200px;
+    display: none;
+    width: 200px;
+    background-color: var(--green);
+    height: 100vh;
+    z-index: 9999;
+    color: rgba(255, 255, 255, 0.85);
+}
+#slide-back{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background-color:rgba(0, 0, 0, 0.05);
+    z-index: 1;
     display: none;
 }
 .menu-slide_logo img{
-    width: 5em;
-    height: 5em;
+    width: 50%;
+    height: 50%;
+}
+.menu-slide_list{
+    padding-left: 1.8em;
+}
+.menu-list{
+ margin: 5% 0;
+}
+.menu-slide_list span{
+    font-size: 1.5em;
+}
+.menu-inner{
+    list-style: none;
+    font-size:1em;
+    display: none;
+}
+.menu-inner li{
+    margin: 3% 0;
+}
+.menu-inner li a{
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
 }

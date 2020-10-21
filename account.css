@@ -1,0 +1,110 @@
+.account{
+   background-color: #a3ae83; 
+    height: 100vh;
+    text-align: center;   
+}
+
+/* 로고 & 계정이름 */
+.account-main{
+    padding-top: 80px;
+    display:flex;
+    flex-direction: column;
+}
+.account-main a img{
+    width: 120px;
+    height: 120px;
+}
+.account-main span{
+    padding: 10px 0;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+/* 닉네임, 비번변경 */
+.account-form{
+    width: 250px;
+    margin: 0 auto;
+}
+.account-form form{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.account-fname{
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--deep_green);
+}
+
+.account-text{
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 1.5px solid var(--deep_green);
+    text-align: center;
+    font-size: 1em;
+    color: white;
+}
+.account-text::placeholder{
+    color: white;
+}
+
+.account-text:focus{
+    outline-style: none;
+    color: white;
+  
+}
+
+/* nick name delete button */
+#a-form{
+    position: relative;
+}
+#nick-delete{
+    position: absolute;
+    color: var(--deep_green);
+    top: 70px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+#nick-delete:focus{
+    outline-style: none;
+}
+
+
+
+
+/* save, 로그아웃, 회원탈퇴 */
+#save{
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 40px;
+    background-color: var(--deep_green);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: 600;
+}
+#save:focus{
+    outline-style: none;
+    background-color: var(--brown);
+    transition: 0.5s backgroun-color ease-in-out;
+}
+
+.account-bottom span,
+.account-bottom span a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+

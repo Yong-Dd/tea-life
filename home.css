@@ -1,23 +1,23 @@
 /* Today's Tea */
 .home_today-tea{
-    padding-top: 20%;
-    text-align:right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
     margin-bottom: 20px;
     margin-left: 50px;
     margin-right: 5%;
-    position: relative;
+   
 }
 .home_today-tea img{
     width: 150px;
     height: 150px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
 }
-.today-tea_text{
-  position: absolute;
-  top: 50%;
-  left: -10%;
-}
+
+
 
 .today-tea_text p:first-child{
     color: var(--green);
@@ -78,6 +78,7 @@
     border: none;
 }
 .best-pick_num > button:focus{
+    transition: color 0.5s ease-in-out;
     color: var(--brown);
     outline-style: none;
 }

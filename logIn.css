@@ -1,0 +1,57 @@
+/* logIn 전체 */
+.logIn-main{
+    text-align: center;
+    padding-top: 80px;
+}
+.logIn-main a img{
+    width: 200px;
+}
+
+/* 입력란 및 버튼 */
+#logIn-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#logIn-form input{
+    margin: 7px 0;
+    border-radius: 5px;
+} 
+#logIn-form input[type="submit"]{
+    margin: 20px 0;
+    height: 35px;
+    width: 100px;
+    background-color: var(--deep_green);
+    border: none;
+    color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+#logIn-form input[type="submit"]:focus{
+    outline-style: none;
+    background-color: var(--brown);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.logIn-text{
+    height: 30px;
+    width: 200px;
+    padding-left: 5px;
+    border: 1.8px solid var(--deep_green);
+}
+.logIn-text:focus{
+    outline-style: none;
+    border: 1.8px solid var(--brown);
+    transition: border 0.5s ease-in-out;
+}
+
+
+.logIn-search span a{
+    font-size: 0.8em;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+.logIn-search span{
+    color: rgba(0, 0, 0, 0.5);
+}

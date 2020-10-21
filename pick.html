@@ -8,6 +8,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://kit.fontawesome.com/a603fc4f68.js" crossorigin="anonymous"></script>
     <script defer src="menu.js"></script>
+    <script defer src="pick.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -54,48 +55,71 @@
                 </div>
             </div>
         </header>
-        <div id="main">
-            <section>
-                <div class="home_today-tea">
-                    <div class="today-tea_text">
-                        <p>오늘의 추천차</p>
-                        <p>Chocolate Chai</p>
-                    </div>
-                    <a href="#"><img src="/tea/chocolate chai.jpg"></a>
+        <div class="pick-menu">
+            <div class="pick-menu_tea">TEA</div>
+            <div class="pick-menu_teaware">TEAWARE</div>
+            <div class="pick-menu_dessert">DESSERT</div>
+        </div>
+        <div id="pick-main">
+            <section class="pick" id="pick-tea">
+                <div class="pick_list">
+                    <a href="#"><img src="/tea/Earl Grey.jpg"></a>
+                    <span>Earl Grey</span>
+                    <button><i class="fas fa-leaf"></i></button>
+                </div>
+                <div class="pick_list">
+                    <a href="#"><img src="/tea/Orange Blossom.jpg"></a>
+                    <span>Orange Blossom</span>
+                    <button><i class="fas fa-leaf"></i></button>
+                </div>
+                <div class="pick_list">
+                    <a href="#"><img src="/tea/English Breakfast.jpg"></a>
+                    <span>English Breakfast</span>
+                    <button><i class="fas fa-leaf"></i></button>
+                </div>
+                <div class="pick_list">
+                    <a href="#"><img src="/tea/English Breakfast.jpg"></a>
+                    <span>English Breakfast</span>
+                    <button><i class="fas fa-leaf"></i></button>
+                </div>
+                <div class="pick_list">
+                    <a href="#"><img src="/tea/English Breakfast.jpg"></a>
+                    <span>English Breakfast</span>
+                    <button><i class="fas fa-leaf"></i></button>
                 </div>
             </section>
-            <section>
-                <div class="home_best-pick_title">
-                    <span class="home-title">BEST PICK</span>
-                    <i class="fas fa-leaf"></i>
+            <section class="pick" id="pick-teaware">
+                <div class="pick_list">
+                    <a href="#"><img src="/tea/Orange Blossom.jpg"></a>
+                    <span>Orange Blossom</span>
+                    <button><i class="fas fa-leaf"></i></button>
                 </div>
-                <div class="home_best-pick_content">
-                    <div class="best-pick_num">
-                        <a href="#"><img src="/tea/Earl Grey.jpg"></a>
-                        <span>Earl Grey</span>
-                        <button><i class="fas fa-leaf"></i></button>
-                    </div>
-                    <div class="best-pick_num">
-                        <a href="#"><img src="/tea/Orange Blossom.jpg"></a>
-                        <span>Orange Blossom</span>
-                        <button><i class="fas fa-leaf"></i></button>
-                    </div>
-                    <div class="best-pick_num">
-                        <a href="#"><img src="/tea/English Breakfast.jpg"></a>
-                        <span>English Breakfast</span>
-                        <button><i class="fas fa-leaf"></i></button>
-                    </div>
+                <div class="pick_list">
+                    <a href="#"><img src="/tea/Orange Blossom.jpg"></a>
+                    <span>Orange Blossom</span>
+                    <button><i class="fas fa-leaf"></i></button>
+                </div>
+                <div class="pick_list">
+                    <a href="#"><img src="/tea/Orange Blossom.jpg"></a>
+                    <span>Orange Blossom</span>
+                    <button><i class="fas fa-leaf"></i></button>
                 </div>
             </section>
-            <section>
-                <span class="home-title">NEW RECIPE</span>
-                <div class="home-recipe">
-                    <img src="/dessert/greentea creape.png">
-                    <div class="home-recipe_text">
-                        <span>그린티 크레이프</span>
-                        <p>노오븐 디저트💚<br> 녹차 덕후를 위한 꾸덕꾸덕한 녹차 크레이프 만들기</p>
-                        <!--   https://www.youtube.com/watch?v=HcrRavlMlOQ -->
-                    </div>
+            <section class="pick" id="pick-dessert">
+                <div class="pick_list">
+                    <a href="#"><img src="/tea/Earl Grey.jpg"></a>
+                    <span>Earl Grey</span>
+                    <button><i class="fas fa-leaf"></i></button>
+                </div>
+                <div class="pick_list">
+                    <a href="#"><img src="/tea/Earl Grey.jpg"></a>
+                    <span>Earl Grey</span>
+                    <button><i class="fas fa-leaf"></i></button>
+                </div>
+                <div class="pick_list">
+                    <a href="#"><img src="/tea/Earl Grey.jpg"></a>
+                    <span>Earl Grey</span>
+                    <button><i class="fas fa-leaf"></i></button>
                 </div>
             </section>
         </div>

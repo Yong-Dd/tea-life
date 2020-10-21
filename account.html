@@ -1,6 +1,10 @@
+<!-- 구현 할 것 
+1. 닉네임, 비밀번호 저장
+2. 닉네임 delete 활성화
+3. save 버튼 활성화 -->
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +12,12 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://kit.fontawesome.com/a603fc4f68.js" crossorigin="anonymous"></script>
     <script defer src="menu.js"></script>
+    <script defer src="pick.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="outline">
+    <div class="account">
         <header class="menu">
             <div class="menu-hold"><i class="fas fa-equals fa-2x"></i></div>
             <div id="menu-in">
@@ -54,50 +59,24 @@
                 </div>
             </div>
         </header>
-        <div id="main">
-            <section>
-                <div class="home_today-tea">
-                    <div class="today-tea_text">
-                        <p>오늘의 추천차</p>
-                        <p>Chocolate Chai</p>
-                    </div>
-                    <a href="#"><img src="/tea/chocolate chai.jpg"></a>
-                </div>
-            </section>
-            <section>
-                <div class="home_best-pick_title">
-                    <span class="home-title">BEST PICK</span>
-                    <i class="fas fa-leaf"></i>
-                </div>
-                <div class="home_best-pick_content">
-                    <div class="best-pick_num">
-                        <a href="#"><img src="/tea/Earl Grey.jpg"></a>
-                        <span>Earl Grey</span>
-                        <button><i class="fas fa-leaf"></i></button>
-                    </div>
-                    <div class="best-pick_num">
-                        <a href="#"><img src="/tea/Orange Blossom.jpg"></a>
-                        <span>Orange Blossom</span>
-                        <button><i class="fas fa-leaf"></i></button>
-                    </div>
-                    <div class="best-pick_num">
-                        <a href="#"><img src="/tea/English Breakfast.jpg"></a>
-                        <span>English Breakfast</span>
-                        <button><i class="fas fa-leaf"></i></button>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <span class="home-title">NEW RECIPE</span>
-                <div class="home-recipe">
-                    <img src="/dessert/greentea creape.png">
-                    <div class="home-recipe_text">
-                        <span>그린티 크레이프</span>
-                        <p>노오븐 디저트💚<br> 녹차 덕후를 위한 꾸덕꾸덕한 녹차 크레이프 만들기</p>
-                        <!--   https://www.youtube.com/watch?v=HcrRavlMlOQ -->
-                    </div>
-                </div>
-            </section>
+        <div class="account-main">
+            <a href="home.html"><img src="/images/logo-white.png"></a>
+            <span>ACCOUNT</span>
+        </div>
+        <div class="account-form">
+            <form id="a-form">
+                <span class="account-fname">닉네임</span>
+                <input type="text" placeholder="닉네임" class="account-text">
+                <button id="nick-delete"><i class="fas fa-times"></i></button>
+                <span class="account-fname">비밀번호 변경</span>
+                <input type="password" placeholder="10~20자이내" class="account-text">
+                <input type="submit" value="SAVE" id="save">
+            </form>
+            <div class="account-bottom">
+                <span><a href="logIn.html">로그아웃</a></span>
+                <span>ㅣ</span>
+                <span><a href="#">회원탈퇴</a></span>
+            </div>
         </div>
         <nav>
             <div class="nav">
