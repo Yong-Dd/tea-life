@@ -33,42 +33,16 @@
 
 }
 
-.pick_list{
-    width: 100px;
-    box-sizing: border-box;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    float: left;
-    margin: 10px 0;
-    margin-right: 20px;
-}
-.pick_list a img{
-    border-radius: 20px;
-    width: 90px;
-    height: 90px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 .pick_list span{
-    font-size: 0.8em;
     color: var(--brown);
-    /* font-family: sans; */
 }
 .pick_list button{
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0);
     color: var(--brown);
-    font-size: 1.1em;
-    top: -5px;
-    right: -5px;
-    border: none;
 }
 .pick_list button:focus{
     transition: color 0.5s ease-in-out;
     outline-style: none;
-    color: var(--deep_green);
+    color: var(--green);
 }
 
 /* teaware, dessert */

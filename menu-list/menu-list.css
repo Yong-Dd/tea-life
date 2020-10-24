@@ -1,0 +1,73 @@
+.tea-name_tea{
+    padding: 0 60px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: var(--green);
+    text-align: center;
+}
+.tea-name_tea span{
+    font-size: 2em;
+    font-weight: 600;
+}
+.tea-name_tea p{
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+
+.search{
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.search input{
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    width: 300px;
+    height: 30px;
+    color: var(--deep_green);
+    padding-left: 10px;
+}
+.search input:focus{
+    outline-style: none;
+}
+.search button{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    position: absolute;
+    top: 8px;
+    right: 5%;
+}
+.search button:focus{
+    outline-style: none;
+}
+
+.star{
+    font-size: 0.7em;
+    color: rgb(94, 75, 57);
+}
+
+/* 이미지 */
+#menu-content{
+    margin-left: 10%;
+    margin-bottom: 100px;
+    height: 90vh;
+}
+.menu-content_item span{
+    padding: 10px 0;
+    height: 30px;
+    
+}
+
+
+
+
+.menu-content_item button{
+    color: var(--green);
+}
+.menu-content_item button:focus{
+    color: var(--brown);
+    outline-style: none;
+}
+
